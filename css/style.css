@@ -1,0 +1,275 @@
+body 
+{
+    margin:0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.menu 
+{
+    font-size: 18px;
+    outline: none !important;
+    border: none;
+    ;
+}
+.xx 
+{
+    font-size: 20px;
+    padding: 6px;
+}
+
+button 
+{
+    outline: none;
+}
+.nav-link , .navbar-brand 
+{
+    font-weight: 700;
+    color: black !important;
+}
+.cartGroup:hover 
+{
+    cursor: pointer;
+}
+.hover-a:hover 
+{
+    text-decoration: underline;
+}
+.left 
+{
+
+direction: ltr;
+}
+.right 
+{
+    direction: ltr;
+}
+.styledirection 
+{
+    direction: rtl;
+}
+
+@media screen and (min-width:992px) {
+    .menu
+    {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    .showLeft 
+    {
+        position: absolute;
+        left: -100%;
+        top: 100%;
+        background-color:  #0b6e9c;
+        color: white ;
+        padding: 15px;
+        height: 100vh;
+        width: 25%;
+
+    }
+   
+   
+    .nav-link 
+    {
+        color: white !important;
+    }
+    
+    a 
+    {
+        color: white !important;
+    }
+   
+    .nav-link ,.cartGroup
+    {
+        padding: 30px;
+    }
+   
+}
+/* --------------------------- */
+
+.imagestyle 
+{
+    transition: all 0.3s;
+}
+
+.imagestyle:hover 
+{
+    transform: scale(1.2);
+}
+.out 
+{
+    overflow: hidden;
+    cursor: pointer;
+}
+.position-style 
+{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: white solid 2px;
+}
+input:focus 
+{
+    outline: none ;
+    border: #0b6e9c solid 2px ;
+}
+input 
+{
+    width: 100%;
+    background-color: transparent;
+    border: solid 1px gray;
+    
+    color: black;
+    padding: 5px ;
+}
+a 
+{
+    color: black ;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#contact 
+{
+    background-color: rgb(0, 0, 41);
+    color: white;
+}
+textarea:focus
+{
+    outline: none;
+}
+
+button 
+{
+    border: solid 1px gray;
+    color: gray;
+    transition: all 0.2s;
+}
+
+
+footer 
+{
+    background-color: rgb(0, 0, 22);
+    align-items: center;
+}
+art
+
+
+.box 
+{
+    background-color: whitesmoke;
+}
+.btn-cart , #buyAll
+{
+    border: rgb(0, 0, 41) 2px solid;
+    color: rgb(0, 0, 41) !important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    transition: all 0.5s;
+}
+.btn-cart:hover ,#buyAll:hover
+{
+    color: white !important;
+    background-color: rgb(0, 0, 41);
+    cursor: pointer;
+
+}
+
+#cartComponenet 
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 55555555555555555555;
+
+    
+}
+.bg-search 
+{
+    position: fixed;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    z-index: 777;
+}
+.position-x-style 
+{
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    z-index: 6666666666666666666666;
+    font-size: 40px;
+    color: gray;
+    transition: all 0.3s;
+}
+.position-x-style:hover 
+{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+#cartButton:hover
+{
+    cursor: pointer;
+}
+
+.position-arrow-style
+{
+    position: fixed;
+    right: 2%;
+    top: 90%;
+    color: white;
+    border: white solid 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+ 
+}
+
+.position-arrow-style:hover 
+{
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+
+}
+
+
+
+.number-style 
+{
+    width: 30px;
+    height: 35px;
+}
+
+
+
+#addSuccess 
+{
+    background-color: white;
+    color:  rgb(13, 110, 13);
+    width: 100%;
+    position: fixed;
+    z-index: 55555555555555555555555555555555555555555555555555555;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+}
+
+#deleteSuccess
+{
+    background-color: white;
+    color: red;
+    width: 100%;
+    position: fixed;
+    z-index: 55555555555555555555555555555555555555555555555555555;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+}
