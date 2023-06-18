@@ -8,11 +8,16 @@ $('.menu').click(function () {
         document.querySelector('.navbar-toggler-icon').classList.add('d-none')
 
         $('.showLeft').animate({'left':'0%'})
+        document.querySelector('body').classList.add('overflow-hidden')
+        document.querySelector('body').classList.remove('overflow-auto')
 
     }else{
         document.querySelector('.navbar-toggler-icon').classList.remove('d-none')
         document.querySelector('#xxx').classList.add('d-none')
         $('.showLeft').animate({'left':'-100%'})
+        document.querySelector('body').classList.add('overflow-auto')
+        document.querySelector('body').classList.remove('overflow-hidden')
+
 
     }
 });
